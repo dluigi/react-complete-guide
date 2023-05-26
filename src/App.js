@@ -3,7 +3,7 @@ import ExpenseItem from "./components/ExpenseItem";
 function App() {
   const expenses = [
     {
-      id: "e1",
+      id: "e0",
       title: "Toilet Paper",
       amount: 94.12,
       date: new Date(2020, 7, 14),
