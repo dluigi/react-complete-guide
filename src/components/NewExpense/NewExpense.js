@@ -14,10 +14,10 @@ const NewExpense = (props) => {
     };
 
     const [isEditing, setIsEditing] = useState(false);
-    const startEditingHandler = () => {
+    const startEditingHandler = (event) => {
         setIsEditing(true);
     }
-    const stopEditingHandler = () => {
+    const stopEditingHandler = (event) => {
         setIsEditing(false);
     }
     
